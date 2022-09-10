@@ -1,0 +1,115 @@
+Section          Base   Top    High   Length
+---------------- ------ ------ ------ -------
+.icon            D1A882 D1A9A1           11Fh
+.init.libs       D1A9A1 D1A9F9            58h
+.libs            D1A9F9 D1AA86            8Dh
+.init.clock      D1AA86 D1AA86             0h
+.init.reruncheck D1AA86 D1AA86             0h
+.init            D1AA86 D1AAB0            2Ah
+.fini            D1AAB0 D1AAE4            34h
+.text            D1AAE4 D1BA09           F25h
+.data            D1BA09 D1C00F           606h
+.rodata          D1C00F D1C03D            2Eh
+.init_array      000000 000000             0h
+.ctors           000000 000000             0h
+.dtors           000000 000000             0h
+.fini_array      000000 000000             0h
+.bss             D052C6 D052DE D13FD8     18h
+.header          D1A87F D1A882             3h
+
+Label                           Value
+-----------------------------   ------
+___low_bss                    = D052C6
+___len_bss                    = 000018
+___heaptop                    = D13FD8
+___heapbot                    = D052DE
+___libs                       = D1A9F9
+___init_array_count           = 000000
+___ctors_count                = 000000
+___dtors_count                = 000000
+___fini_array_count           = 000000
+__stack                       = D1A87E
+_os_DisableHomeTextBuffer     = D1AAE4
+_os_EnableHomeTextBuffer      = D1AAF6
+_free                         = D1AB08
+_malloc                       = D1ABB1
+__alloc_base                  = D052C6
+__frameset                    = D1AC4D
+_sbrk                         = D1AC5B
+__sbrkbase                    = D1BA09
+__ishl                        = 000174
+__ishru                       = 000184
+__sand                        = 000200
+__setflag                     = 000218
+.missingappvar                = D1C00F
+.libloadname                  = D1C014
+.libloadnamelen               = 000007
+.webaddress                   = D1C01C
+__start                       = D1AA86
+___exithl                     = D1AAB0
+skip._exit                    = D1AAB0
+skip.__Exit                   = D1AAB0
+skip._abort                   = D1AAB0
+_exit.sp                      = D1AAB1
+_exit.flash_wait_states       = D1AABB
+_global_palette               = D1BA0C
+_main                         = D1AC79
+_Load                         = D1B317
+_ClearScreen                  = D1B365
+_Center                       = D1B38B
+_UpdateRegion                 = D1B3D0
+_DrawImage                    = D1B489
+_DrawBar                      = D1B515
+_DrawPixel                    = D1B559
+_DrawCursor                   = D1B5E4
+_DrawColor                    = D1B66F
+_Save                         = D1B6E5
+_DrawImage_NoClip             = D1B733
+_DrawImage_Clip               = D1B82B
+_curX                         = D052CC
+_curY                         = D052CD
+_color                        = D052CE
+_panX                         = D052CF
+_panY                         = D052D1
+_zoom                         = D1BC0C
+_zoomShift                    = D1BC0D
+_showGrid                     = D1BC0E
+_inregion                     = D052D3
+_dispWidth                    = D052D4
+_dispHeight                   = D052D6
+_image                        = D052D8
+_last                         = D052DB
+_lastarrows                   = D052DC
+_arrows                       = D052DD
+L_.str                        = D1C031
+L_.str.1                      = D1C039
+L_.str.2                      = D1C03B
+_font8x8                      = D1BC0F
+_#ti_Open                     = D1AA03
+_#ti_Close                    = D1AA07
+_#ti_Write                    = D1AA0B
+_#ti_Read                     = D1AA0F
+_#gfx_Begin                   = D1AA1C
+_#gfx_End                     = D1AA20
+_#gfx_SetColor                = D1AA24
+_#gfx_SetPalette              = D1AA28
+_#gfx_SetPixel                = D1AA2C
+_#gfx_SetDraw                 = D1AA30
+_#gfx_Blit                    = D1AA34
+_#gfx_PrintUInt               = D1AA38
+_#gfx_SetTextXY               = D1AA3C
+_#gfx_SetTextBGColor          = D1AA40
+_#gfx_SetTextFGColor          = D1AA44
+_#gfx_SetTextTransparentColor = D1AA48
+_#gfx_SetFontData             = D1AA4C
+_#gfx_SetMonospaceFont        = D1AA50
+_#gfx_Rectangle               = D1AA54
+_#gfx_FillRectangle           = D1AA58
+_#gfx_VertLine_NoClip         = D1AA5C
+_#gfx_FillRectangle_NoClip    = D1AA60
+_#gfx_SetClipRegion           = D1AA64
+_#gfx_SetTransparentColor     = D1AA68
+_#gfx_SetTextConfig           = D1AA6C
+_#gfx_SetFontHeight           = D1AA70
+_#kb_Scan                     = D1AA7E
+_#kb_AnyKey                   = D1AA82
