@@ -1,5 +1,10 @@
 # Pixel-84PCE
 
+![GitHub repo size](https://img.shields.io/github/repo-size/morefoxbeans/Pixel-84PCE?style=for-the-badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/morefoxbeans/Pixel-84PCE?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/morefoxbeans/Pixel-84PCE?style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/morefoxbeans/Pixel-84PCE/total?style=for-the-badge)
+
 Pixel art editor for the TI-84 Plus CE!
 
 ## Controls
